@@ -1,0 +1,71 @@
+---
+layout: default
+---
+
+# 嵌入式AI 双周简报 (2017-12-12)
+
+## 业界新闻
+
+- [IBM推出机器学习加速“瑞士军刀”Power9芯片，性能为同类产品的10倍 | 新智元](https://mp.weixin.qq.com/s?timestamp=1513062415&src=3&ver=1&signature=fTQ93DETY2RWqbThhgdlcBlBx4tfraHNaizVJ4n-G5h4vphOJrIfT*OtM6NhvEmL1oYVtn1LYgKMeIWKD9NX77SYNFLAofIAMOV-dPGWrDJ01xT3Hca7zaXnyEZbacX58hEB5UBkSYgyiVjBOvczEU1vPh8sY4CVUm2eQvPVskE=) [[原文](https://www.ibm.com/blogs/research/2017/12/10x-faster-using-gpu/)] [[paper](https://arxiv.org/abs/1708.05357)] <br />
+简评：IBM最新一代的Power9正在进入市场，是目前唯一采用最先进的I / O子系统技术的处理器，包括下一代NVIDIA NVLink，PCIe Gen4和OpenCAPI。与x86比：最大9.5倍I / O带宽；2倍核心高性能；2.6倍RAM支持；1.8倍内存宽带。可以让Chainer，TensorFlow和Caffe等通用AI框运行的workloads增加近4倍。
+- [马斯克首度承认自研AI芯片，或与英伟达“分手“ | 新智元](https://mp.weixin.qq.com/s?timestamp=1513062408&src=3&ver=1&signature=fTQ93DETY2RWqbThhgdlcBq1RqsL571fcPqXLNCeQ5RaGAnW4migmjYgbzZ0hKekbWTdE1idDJoFbARX5zUbSjC5dKYcQorRG6rvmpvr0tWawDwFudYkM*fi3DjMvl8sdbd7uEj2udk37OOZP3p0JGja29AypFVRTasFZ5F6ODk=) <br />
+简评：特斯拉CEO Elon Musk在NIPS上公开承认，特斯拉正在开发专用的AI芯片。而同时，英伟达也在NIPS上发布了迄今为止最强大的“TITAN V” PC GPU。
+- [全面对比英伟达Tesla V100/P100 Tensor Core的RNN加速能力 | 机器之心](https://mp.weixin.qq.com/s?timestamp=1513064452&src=3&ver=1&signature=fTQ93DETY2RWqbThhgdlcHCPhAS9hfeG3*KZPXWTck9Jbvjq*MoXpnIbzJ5b1w8x81SbAUlxwsFMnnf*RHj-o*sxTW9KUv508uyYMXZIUp2r6MCM3H3GZu-6tGUYDUljYOn2pPUrzWqRZJlN3-hWvqmEuRrkFXVh1VNLEwl83*o=) <br />
+简评：RNN 是处理量化金融、风险管理等时序数据的主要深度学习模型，但这种模型用 GPU 加速的效果并不好。本文使用 RNN 与 LSTM 基于 TensorFlow 对比了英伟达 Tesla P100（Pascal）和 V100（Volta）GPU 的加速性能，且结果表明训练和推断过程的加速效果并没有我们预期的那么好。
+- [Announcing Core ML support in TensorFlow Lite | Google Developers](https://developers.googleblog.com/2017/12/announcing-core-ml-support.html) <br />
+简评：谷歌宣布Core ML支持加载TensorFlow模型。此外，谷歌将会继续致力于TensorFlow Lite的跨平台，包括iOS平台。
+- [ONNX V1 released | Facebook Research](https://research.fb.com/onnx-v1-released/) <br />
+简评：今年九月开源神经网络交换格式被开源，这是一种开源的模型格式。如今，Caffe2，CNTK，MXNet，Pytorch，TensorRT都已经支持该模型格式，且可用于生产环境。
+
+
+## 开源项目
+
+- [ucla-vision/parle](https://github.com//ucla-vision/parle) [[paper](https://arxiv.org/abs/1707.00424)] <br \>
+简评：Parle: parallelizing stochastic gradient descent。
+- [victordibia/handtracking: Building a Real-time Hand-Detector using Neural Networks (SSD) on Tensorflow](https://github.com//victordibia/handtracking) <br \>
+简评：
+- [weinman/cnn_lstm_ctc_ocr: Tensorflow-based CNN+LSTM trained with CTC-loss for OCR](https://github.com//weinman/cnn_lstm_ctc_ocr) <br \>
+简评：
+- [JayParks/quasi-rnn: PyTorch Implementation of "Quasi-Recurrent Neural Networks"](https://github.com//JayParks/quasi-rnn) [[blog](https://einstein.ai/research/new-neural-network-building-block-allows-faster-and-more-accurate-text-understanding)] [[paper](https://arxiv.org/abs/1611.01576)]
+简评：[1611.01576] Quasi-Recurrent Neural Networks
+- [1712.03112] [Effective Extensible Programming: Unleashing Julia on GPUs](https://arxiv.org/abs/1712.03112) <br \>
+简评：
+- [jwyang/faster-rcnn.pytorch](https://github.com//jwyang/faster-rcnn.pytorch)  <br \>
+简评：
+- [apple/turicreate: Turi Create simplifies the development of custom machine learning models.](https://github.com//apple/turicreate) <br />
+简评：Turi Create：(Python)轻松训练自己的(Core ML)机器学习模型(推荐、目标检测、图像分类，图像相似度检测或行为分类)。
+
+
+## 论文
+
+- [1711.11460] [VoiceMask: Anonymize and Sanitize Voice Input on Mobile Devices](https://arxiv.org/abs/1711.11460) <br \>
+简评：
+- [1712.02170] [Detecting Curve Text in the Wild: New Dataset and New Solution](https://arxiv.org/abs/1712.02170) <br \>
+简评：
+
+
+## 博文
+
+- [专访Velodyne自动驾驶VP：无人驾驶量产得靠128线廉价激光雷达，中国将是最大市场 | 新智元](https://mp.weixin.qq.com/s?timestamp=1513062415&src=3&ver=1&signature=fTQ93DETY2RWqbThhgdlcBlBx4tfraHNaizVJ4n-G5h4vphOJrIfT*OtM6NhvEmL1oYVtn1LYgKMeIWKD9NX72BBait0OkwXLIUNLsq5Wx5JiXoMrkvOW1atct-sHpmprfsbOcbK1-f99z*AGa2KSIKSvAgCufC0u0ukOOjq3IU=) <br />
+简评：Velodyne 激光雷达（64线）曾定价7万多美元，被认为是无人驾驶走向商用不得不解决的成本问题。近日，Velodyne 又发布了性能更佳的128线激光雷达，但是其自动驾驶负责人却表示，价格将会史无前例的低。此前，他们曾表示64线激光雷达可以从7万美元降到50美元。面对谷歌 Waymo自己打造价格只有其十分之一的激光雷达，特斯拉根本不使用激光雷达的情况，Velodyne 新产品会有怎样的定价？
+- [BP表达式与硬件架构：相似性构建更高效的计算单元 | 机器之心](https://mp.weixin.qq.com/s?timestamp=1513064452&src=3&ver=1&signature=fTQ93DETY2RWqbThhgdlcHCPhAS9hfeG3*KZPXWTck9Jbvjq*MoXpnIbzJ5b1w8x81SbAUlxwsFMnnf*RHj-o0JQgtuHqHM5e0uwRhAARDuTRQ2*uQEkHAhEDc6J2-WRuPUoWK*EVrFnn8ZlIXl*Qwa-FMvr91vZvIdqaRvfiv8=) <br />
+简评：反向传播是当前深度学习主要使用的参数更新方法，因此深度学习的硬件设计也需要拟合这种反向传播的计算结构。本文从反向传播的抽象表达开始简要地分析了 BP 算法和脉动阵列架构（systolic array architecture）之间的相似性，从而表明了脉动阵列架构适合执行 BP 和进行模型训练。
+- [Mask R-CNN2Go! On-device realtime person keypoint estimation on Samsung Galaxy S8 accelerated by Caffe2 and Qualcomm Snapdragon Neural Processing Engine | facebook](https://weibo.com/tv/v/FyzglwpK0)
+简评：It's an efficient DNN optimized for mobile devices based on Mask R-CNN. Watch the demo to see realtime person keypoint estimation on Samsung Galaxy S8 accelerated by #Caffe2 and #Qualcomm Snapdragon Neural Processing Engine. #NIPS2017。
+- [End to End Optimization Stack for Deep Learning by Tianqi Chen | learningsys](http://learningsys.org/nips17/assets/slides/TVM-MLSys-NIPS17.pdf)
+简评：深度学习端到端优化栈。
+- [单芯片千兆级深度学习（by Tapabrata Ghosh, Vathys） | bilibili](https://www.bilibili.com/video/av17077920/) <br />
+简评：
+- [Benchmarking Modern GPUs for Maximum Cloud Cost Efficiency in Deep Learning | minimaxir](http://minimaxir.com/2017/11/benchmark-gpus/) <br />
+简评：云端GPU深度学习最新性能评测。
+- [NVIDIA Deep Learning Inference Platform Performance Study | NVIDIA Developer News Center](https://news.developer.nvidia.com/nvidia-deep-learning-inference-platform-performance-study/) [[pdf](https://images.nvidia.com/content/pdf/inference-technical-overview.pdf)] <br />
+简评：NVIDIA在深度学习推理方面的性能研究，具体内容请点击pdf查看该技术报告。
+
+
+----
+
+Editor: 张先轶、袁帅
+
+----
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/2.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/">知识共享署名-相同方式共享 2.0 通用许可协议</a>进行许可。
