@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+# 嵌入式AI 双周简报 (2017-01-12)
+
+## 业界新闻
+
+- [OpenBLAS发布0.2.20版本](https://github.com/xianyi/OpenBLAS/releases/tag/v0.2.20)
+- [Clarifai launches SDK for training AI on your iPhone | VentureBeat](https://venturebeat.com/2017/07/12/clarifai-launches-sdk-for-running-ai-on-your-iphone/)
+- [We ported CAFFE to HIP - and here’s what happened… | GPUOpen](http://gpuopen.com/ported-caffe-hip-heres-happened/)
+
+## 论文
+
+
+## 开源项目
+
+- [Caffe2-iOS demo](https://github.com/KleinYuan/Caffe2-iOS)
+- [Tencent/ncnn: ncnn is a high-performance neural network inference framework optimized for the mobile platform](https://github.com/Tencent/ncnn)
+- [jiaxiang-wu/quantized-cnn: An efficient framework for convolutional neural networks](https://github.com/jiaxiang-wu/quantized-cnn)
+- [KimDarren/FaceCropper: Crop faces, inside of your image, with iOS 11 Vision api.](https://github.com/KimDarren/FaceCropper)
+- [csarron/emdl: Embedded and mobile deep learning research resources](https://github.com/csarron/emdl)
+
+## 博文
+
+- [基于OpenGL ES 的深度学习框架编写 - jxt1234and2010的专栏](http://blog.csdn.net/jxt1234and2010/article/details/71056736)
+- [深度学习技术的应用和思考-博客-云栖社区-阿里云](https://yq.aliyun.com/articles/79420)
+
+## 硬件加速
+
+- [解密又一个xPU：Graphcore的IPU | 唐杉 StarryHeavensAbove ](https://mp.weixin.qq.com/s?__biz=MzI3MDQ2MjA3OA==&mid=2247484282&idx=1&sn=65db58a2610e3828c2feea0c6e3de624&chksm=ead1fe6bdda6777dee462d197e7e6d257d312a1879faab13dd2907f507bbe79a3b314b848ac4&mpshare=1&scene=1&srcid=0724s2sVE9TRaszKKRCqSEcB#rd)
+
+
+----
+
+Editor: 张先轶、袁帅
+
+----
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/2.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/">知识共享署名-相同方式共享 2.0 通用许可协议</a>进行许可。
