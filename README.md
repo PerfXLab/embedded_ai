@@ -2,6 +2,7 @@
 
 For embedded ai bi weekly reports.
 
+- [Embedded-AI 2018-07-20](./bi-weekly-reports/2018-07-20.md)
 - [Embedded-AI 2018-06-25](./bi-weekly-reports/2018-06-25.md)
 - [Embedded-AI 2018-05-26](./bi-weekly-reports/2018-05-26.md)
 - [Embedded-AI 2018-04-28](./bi-weekly-reports/2018-04-28.md)
